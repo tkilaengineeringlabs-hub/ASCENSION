@@ -1,0 +1,1 @@
+{"name":"ascension","private":true,"version":"0.1.0","scripts":{"dev":"concurrently -k \"npm:dev:server\" \"npm:dev:client\"","dev:client":"npm --workspace client run dev","dev:server":"npm --workspace server run dev","build":"npm --workspace client run build && npm --workspace server run build"},"workspaces":["client","server"],"devDependencies":{"concurrently":"^9.1.2"}}
